@@ -12,6 +12,9 @@ body {
   background-color: black;
 }
 
+@media (max-width: 768px) {
+}
+
 @layer components {
   .btn-social {
     @apply flex cursor-pointer bg-gradient-to-tr from-emerald-700 to-emerald-400 

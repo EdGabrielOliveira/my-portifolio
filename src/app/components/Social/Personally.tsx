@@ -2,8 +2,11 @@ import React from "react";
 
 export default function Personally() {
   return (
-    <div>
-      <ul className="grid grid-cols-3 gap-4 justify-center">
+    <div className="flex md:flex-row sm:flex-col md:justify-center md:items-center">
+      <ul
+        className="grid md:grid-cols-3 gap-4 md:justify-center 
+      sm:grid-cols-1 md:w-full sm:justify-center sm:items-center"
+      >
         <li className="list-hab">
           <p className="font-bold pb-2">Aprendizado Autodidata:</p>
           <p className="font-light text-sm">
