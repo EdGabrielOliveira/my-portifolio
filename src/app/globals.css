@@ -2,32 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
 }
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: black;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer components {
+  .btn-social {
+    @apply flex cursor-pointer bg-gradient-to-tr from-emerald-700 to-emerald-400 
+    hover:bg-gradient-to-tr hover:from-emerald-900 hover:to-emerald-500 border-[0.1rem] 
+    border-emerald-800 hover:border-emerald-950 hover:text-white p-2 
+    justify-center items-center gap-2 rounded-lg font-semibold;
+  }
+  .ranger-align {
+    @apply flex flex-col justify-start items-start text-start font-medium;
+  }
+  .list-hab {
+    @apply border-[0.1rem] rounded-md p-2 border-white/30 text-center shadow-md
+    shadow-white/20 items-center justify-center h-[6.2rem] bg-gradient-to-tr from-emerald-900
+     to-emerald-600;
   }
 }
