@@ -2,10 +2,11 @@ import React from "react";
 
 export default function Personally() {
   return (
-    <div className="flex md:flex-row sm:flex-col md:justify-center md:items-center">
+    <div className="flex xl:flex-row sm:flex-col xl:justify-center xl:items-center md:items-center md:justify-center">
       <ul
-        className="grid md:grid-cols-3 gap-4 md:justify-center 
-      sm:grid-cols-1 md:w-full sm:justify-center sm:items-center"
+        className="grid xl:grid-cols-3 gap-4 xl:justify-center 
+      sm:grid-cols-1 xl:w-full sm:justify-center sm:items-center
+      md:grid md:grid-cols-2 md:justify-center md:items-center"
       >
         <li className="list-hab">
           <p className="font-bold pb-2">Aprendizado Autodidata:</p>

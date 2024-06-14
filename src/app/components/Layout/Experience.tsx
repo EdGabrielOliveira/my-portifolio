@@ -3,9 +3,13 @@ import InputRange from "../Inputs/InputRange";
 
 export default function Experience() {
   return (
-    <div className="flex flex-col w-[24rem]">
-      <ul className="flex justify-between gap-12">
-        <div className="">
+    <div className="flex xl:flex-col xl:w-[24rem] md:grid">
+      <ul
+        className="flex xl:flex-row xl:flex md:flex xl:justify-between xl:gap-12 md:justify-center 
+      md:items-center sm:gap-12 md:flex-col
+      "
+      >
+        <div className="xl:flex xl:flex-col md:flex md:gap-4">
           <li className="ranger-align">
             <p>JavaScript</p>
             <InputRange target={50} />
@@ -23,7 +27,7 @@ export default function Experience() {
             <InputRange target={90} />
           </li>
         </div>
-        <div>
+        <div className="xl:flex xl:flex-col md:flex md:gap-4">
           <li className="ranger-align">
             <p>HTML</p>
             <InputRange target={100} />

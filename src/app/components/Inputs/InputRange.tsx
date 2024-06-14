@@ -11,7 +11,7 @@ export default function InputRange({ target }: RangeProps) {
       <input
         type="range"
         value={target}
-        className="w-[10rem] appearance-none h-2 outline-none focus:outline-none bg-gradient-to-l from-emerald-700 to-emerald-400"
+        className="xl:w-[10rem] sm:w-[10rem] md:w-[7.5rem] appearance-none h-2 outline-none focus:outline-none bg-gradient-to-l from-emerald-700 to-emerald-400"
       />
     </div>
   );
