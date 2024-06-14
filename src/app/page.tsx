@@ -8,7 +8,7 @@ import Footer from "./components/Layout/Footer";
 
 export default function Home() {
   return (
-    <div className="flex-col min-w-400 max-w-full overflow-x-hidden w-full text-white container mx-auto font-Poppins ">
+    <div className="flex-col min-w-360 w-full max-w-full overflow-x-hidden text-white container mx-auto font-Poppins ">
       <div className="flex md:flex md:flex-row md:justify-center md:items-center sm:flex-col sm:justify-center sm:items-center md:pt-[5rem] sm:pt-[2rem]">
         <div className="flex justify-center items-center text-center">
           <Perfil />
