@@ -7,7 +7,7 @@ import Avatar1 from "../../assets/avatar-1.jpg";
 export default function Perfil() {
   return (
     <div className="m-[0rem] p-[0rem] pb-5">
-      <section className="flex justify-center items-center md:pr-[2rem] sm:flex sm:flex-col sm:justify-center">
+      <section className="flex justify-center items-center md:flex-row md:pr-[2rem] sm:flex sm:flex-col sm:justify-center">
         <Image
           src={Avatar1}
           alt="Avatar"
