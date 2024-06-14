@@ -9,7 +9,7 @@ export default function Experience() {
       md:items-center sm:gap-12 md:flex-col
       "
       >
-        <div className="xl:flex xl:flex-col md:flex md:gap-4">
+        <div className="xl:flex xl:flex-col md:flex md:gap-4 xl:gap-0 sm:gap-0">
           <li className="ranger-align">
             <p>JavaScript</p>
             <InputRange target={50} />
@@ -27,7 +27,7 @@ export default function Experience() {
             <InputRange target={90} />
           </li>
         </div>
-        <div className="xl:flex xl:flex-col md:flex md:gap-4">
+        <div className="xl:flex xl:flex-col md:flex md:gap-4 xl:gap-0 sm:gap-0">
           <li className="ranger-align">
             <p>HTML</p>
             <InputRange target={100} />
