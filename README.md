@@ -12,8 +12,8 @@ Sou um **Desenvolvedor Front-end** apaixonado por tecnologia, especializado em *
 - **Outras habilidades:** UI/UX, Consumo de APIs REST, Validação de dados com Zod  
 
 ## 📌 Projetos em Destaque  
-🔹 **[SafeLink](#)** – Ferramenta para encurtar links com proteção contra phishing.  
-🔹 **[MarketMates](#)** – Plataforma UGC que conecta empresas e criadores de conteúdo.  
+🔹 **[SafeLink](#)** – Ferramenta para downalods através de links.  
+🔹 **[MarketMates](#)** – Layout de uma plataforma UGC que conecta empresas e criadores de conteúdo.  
 🔹 **[ClimaTrack](#)** – Aplicação para rastrear condições climáticas em tempo real.  
 
 ## 📂 Como Acessar Meu Currículo  
