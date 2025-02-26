@@ -16,26 +16,24 @@ const skills = [
   { title: "Proatividade", description: "Tomo a iniciativa para resolver problemas e melhorar processos." },
 ];
 
-export default function Personally() {
+export default function PersonallyFlex() {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
-    responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 2 } },
-      { breakpoint: 640, settings: { slidesToShow: 1 } },
-    ],
   };
 
   return (
-    <div className="w-full ">
-      <p className="text-2xl underline underline-offset-2 decoration-sky-600">Competências Comportamentais</p>
+    <div className="w-full">
+      <p className="text-2xl sm:text-xl xs:text-xl underline underline-offset-2 decoration-sky-600">
+        Competências Comportamentais
+      </p>
       <Slider {...settings}>
         {skills.map((skill, index) => (
-          <div key={index} className="p-4">
-            <div className="bg-gradient-to-tr to-sky-700 from-sky-950 shadow-lg rounded-lg p-6 h-[9rem] w-[18rem] items-center justify-center flex-col">
+          <div key={index} className="p-4 px-10 flex flex-row">
+            <div className="bg-gradient-to-tr to-sky-700 from-sky-950 shadow-lg rounded-lg p-6 h-[9rem] w-[16rem] items-center justify-center">
               <p className="font-bold pb-2">{skill.title}</p>
               <p className="font-light text-balance text-sm text-gray-300">{skill.description}</p>
             </div>
