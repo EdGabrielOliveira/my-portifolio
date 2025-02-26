@@ -3,7 +3,7 @@ import React from "react";
 export default function Biography() {
   return (
     <div
-      className="gap-4 flex flex-col xl:w-full sm:w-[23rem] sm:justify-center
+      className="gap-4 flex flex-col xl:w-full xs:w-[21rem] sm:w-[23rem] sm:justify-center
      sm:items-center sm:text-center md:justify-center md:items-center
      md:w-[36rem]"
     >

@@ -1,23 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 body {
   background-color: black;
+  font-family: "Poppins", sans-serif;
 }
 
 @layer components {
   .btn-social {
-    @apply flex cursor-pointer bg-gradient-to-tr from-sky-700 to-sky-400 
-    hover:bg-gradient-to-tr hover:from-sky-400 hover:to-sky-600 border-[0.1rem] 
-    border-sky-800 hover:border-sky-950 hover:text-white p-2 
-    justify-center items-center gap-2 rounded-lg font-semibold;
+    @apply flex cursor-pointer bg-gradient-to-tr to-sky-700 from-sky-950
+    hover:bg-gradient-to-br hover:from-sky-500 hover:to-sky-700 p-2 
+    justify-center items-center rounded-lg font-semibold;
   }
   .ranger-align {
     @apply flex flex-col justify-start items-start text-start font-medium;
@@ -31,6 +32,6 @@ body {
     @apply xl: md: sm:;
   }
   .projects-nav {
-    @apply flex bg-sky-600 p-2 rounded-lg hover:bg-sky-500 cursor-pointer pl-4 pr-4;
+    @apply flex ring-2 ring-sky-500 hover:ring-0 hover:bg-sky-500 font-bold p-2 rounded-lg cursor-pointer pl-4 pr-4;
   }
 }
