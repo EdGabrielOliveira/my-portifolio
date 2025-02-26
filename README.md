@@ -17,7 +17,7 @@ Sou um **Desenvolvedor Front-end** apaixonado por tecnologia, especializado em *
 🔹 **[ClimaTrack](#)** – Aplicação para rastrear condições climáticas em tempo real.  
 
 ## 📂 Como Acessar Meu Currículo  
-Você pode visualizar e baixar meu currículo diretamente [aqui](./meu-curriculo.pdf).  
+Você pode visualizar e baixar meu currículo diretamente [aqui](https://drive.google.com/file/d/1SY6NzyFi5MawCR1alkYCMe3Dpc0wGHFG/view?usp=sharing).  
 
 ## 📬 Contato  
 📧 E-mail: [edgabrieloliveira@proton.me](mailto:edgabrieloliveira@proton.me)  
