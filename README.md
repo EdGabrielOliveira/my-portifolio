@@ -20,8 +20,8 @@ Sou um **Desenvolvedor Front-end** apaixonado por tecnologia, especializado em *
 Você pode visualizar e baixar meu currículo diretamente [aqui](./meu-curriculo.pdf).  
 
 ## 📬 Contato  
-📧 E-mail: [seu-email@email.com](mailto:seu-email@email.com)  
-💼 LinkedIn: [linkedin.com/in/seu-usuario](https://linkedin.com/in/seu-usuario)  
-🌐 Portfólio Online: [seusite.com](https://seusite.com)  
+📧 E-mail: [seu-email@email.com](mailto:edgabrieloliveira@proton.me)  
+💼 LinkedIn: [linkedin.com/in/seu-usuario](https://www.linkedin.com/in/edgabrieloliveira/)  
+🌐 Portfólio Online: [seusite.com](https://my-portifolio-inky.vercel.app/)  
 
 Se gostou do meu trabalho, sinta-se à vontade para dar uma ⭐ no repositório! 😊  
