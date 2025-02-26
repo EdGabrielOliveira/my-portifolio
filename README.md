@@ -22,6 +22,6 @@ Você pode visualizar e baixar meu currículo diretamente [aqui](./meu-curriculo
 ## 📬 Contato  
 📧 E-mail: [edgabrieloliveira@proton.me](mailto:edgabrieloliveira@proton.me)  
 💼 LinkedIn: [Gabriel Oliveira](https://www.linkedin.com/in/edgabrieloliveira/)  
-🌐 Portfólio Online: [Veja mo Vercel](https://my-portifolio-inky.vercel.app/)  
+🌐 Portfólio Online: [Veja no Vercel](https://my-portifolio-inky.vercel.app/)  
 
 Se gostou do meu trabalho, sinta-se à vontade para dar uma ⭐ no repositório! 😊  
